@@ -47,7 +47,7 @@ namespace StreamProcessor
             }
             else if (value.NULL)
             {
-                // nothing to do here.
+                obj = null;
             }
             else if (value.B != null)
             {
